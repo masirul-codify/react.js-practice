@@ -5,16 +5,18 @@ const currentDay = date.getDay();
 const currentMonth = date.getMonth();
 const currentYear = date.getFullYear();
 const themeBtn = "Read More";
- 
-function Card(){
-  return           <div className='card'>
-  <h1 className='card-title'> {blogTitle} </h1>
-  <h4 className='card-desc'> {blogDesc} </h4>
-  <h6 className='card-footer'> {currentDay + "/" + currentMonth + "/" + currentYear} </h6>
-  <div className='btn-wrapper'>
-    <a href='#' className='theme-btn'>{themeBtn}</a>
+
+function Card() {
+  return <div className='card'>
+    <h1 className='card-title'> {blogTitle} </h1>
+    <h4 className='card-desc'> {blogDesc} </h4>
+    <h6 className='card-footer'> {currentDay + "/" + currentMonth + "/" + currentYear} </h6>
+    <div className='btn-wrapper'>
+      <a href='#' className='theme-btn'>{themeBtn}</a>
+    </div>
   </div>
-</div> 
+
+
 }
 
 export default Card;
