@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';  
+import './style.css';
 
 const todoTitle = " Blog App With React  ";
 const todoDesc = " To check your version of Node. js, open Terminal (or another CLI of your choice), and type the command node -v . Press Enter. The returning line will display the Node.Jan 10, 2023 ";
