@@ -9,6 +9,16 @@ const currentMonth = date.getMonth();
 const currentYear = date.getFullYear();
 const themeBtn = "Read More";
  
+function Card(){
+  return           <div className='card'>
+  <h1 className='card-title'> {blogTitle} </h1>
+  <h4 className='card-desc'> {blogDesc} </h4>
+  <h6 className='card-footer'> {currentDay + "/" + currentMonth + "/" + currentYear} </h6>
+  <div className='btn-wrapper'>
+    <a href='#' className='theme-btn'>{themeBtn}</a>
+  </div>
+</div> 
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render( 
@@ -17,33 +27,12 @@ root.render(
     <div className='container'>
       <div className='row'>
         <div className='card-wrapper'>
-          <div className='card'>
-            <h1 className='card-title'> {blogTitle} </h1>
-            <h4 className='card-desc'> {blogDesc} </h4>
-            <h6 className='card-footer'> {currentDay + "/" + currentMonth + "/" + currentYear} </h6>
-            <div className='btn-wrapper'>
-              <a href='#' className='theme-btn'>{themeBtn}</a>
-            </div>
-          </div> {/*./card */}
-          <div className='card'>
-            <h1 className='card-title'> {blogTitle} </h1>
-            <h4 className='card-desc'> {blogDesc} </h4>
-            <h6 className='card-footer'> {currentDay + "/" + currentMonth + "/" + currentYear} </h6>
-            <div className='btn-wrapper'>
-              <a href='#' className='theme-btn'>{themeBtn}</a>
-            </div>
-          </div> {/*./card */}          
-          <div className='card'>
-            <h1 className='card-title'> {blogTitle} </h1>
-            <h4 className='card-desc'> {blogDesc} </h4>
-            <h6 className='card-footer'> {currentDay + "/" + currentMonth + "/" + currentYear} </h6>
-            <div className='btn-wrapper'>
-              <a href='#' className='theme-btn'>{themeBtn}</a>
-            </div>
-          </div> {/*./card */}
-        </div>
+          <Card />
+          <Card />
+          <Card />
       </div> 
     </div> 
+  </div>
   </div>
 
 );
