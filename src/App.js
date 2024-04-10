@@ -4,17 +4,13 @@ import React from 'react';
 import Card from './components/Card';
 import Data from './Data.json'; 
 
-function App() {
-    let items = [];
-    for (let x= 0; x<Data.length; x++) {
-        items.push (<Card blogTitle=  {Data[x].blogTitle}  blogDesc= {Data[x].blogDesc}  /> )
-    }
+function App() {  
     return <div> 
         <h1 className='headingStyle'> Blog App  </h1>
         <div className='container'>
             <div className='row'>
                 <div className='card-wrapper'>
-                  {items} 
+                  { Data.map ( (item, index) => <Card key={index} blogTitle=  {item.blogTitle}  blogDesc= {item.blogDesc}/> )}
                 </div>
             </div>
         </div>
