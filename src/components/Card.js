@@ -13,7 +13,7 @@ function Card(props) {
     <h4 className='card-desc'> {blogDesc} </h4>
     <h6 className='card-footer'> {currentDay + "/" + currentMonth + "/" + currentYear} </h6>
     <div className='btn-wrapper'>
-      <a href='#' className='theme-btn'>{themeBtn}</a>
+      <a href='www.facebook.com' className='theme-btn'>{themeBtn}</a>
     </div>
   </div>
 
