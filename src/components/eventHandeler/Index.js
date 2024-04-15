@@ -8,10 +8,11 @@ constructor(props) {
   this.state = {
      changedValue : ''
   }
+//   this.handleOnChange = this.handleOnChange.bind(this)
 }
 
 
-handleOnChange = (e) =>{
+handleOnChange (e){
     this.setState({
         changedValue : e.target.value
     }, ()=>{
@@ -22,7 +23,7 @@ handleOnChange = (e) =>{
   render() {
     return (
       <div className='text-center my-5'>
-          <input type='text' onChange={this.handleOnChange} />
+          <input type='text' onChange={this.handleOnChange.bind(this)} />
           <p>{this.state.changedValue}</p>
       </div>
     )
