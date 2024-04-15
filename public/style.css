@@ -63,7 +63,7 @@
     margin-top: 50px;
     text-align: end;
   }
-  .btn-wrapper .theme-btn{
+  .btn-wrapper .theme-btn, button{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;

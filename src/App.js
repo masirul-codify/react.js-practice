@@ -8,6 +8,7 @@ import Data from './Data.json';
 import Card2 from './components/Card2';
 import BsCard from './components/reactBootstrap/BsCard';
 import Navbar from './components/reactBootstrap/Navbar';
+import States from './components/State';
 import { FaFacebook,FaYoutube  } from "react-icons/fa6";
 import ReactBootstrap from './components/reactBootstrap/ReactBootstrap';
 
@@ -30,6 +31,7 @@ function App(){
            <BsCard />
            <BsCard />
         </div> 
+        <States />
     </div>
 }
 
