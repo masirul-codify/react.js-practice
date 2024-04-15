@@ -3,13 +3,15 @@
 import React from 'react';
 import Card from './components/Card';
 import List from './components/unique-list/List';
+import Users from './components/unique-list/User';
 import Data from './Data.json'; 
 
 
 
+
 function App(){
-    return <div>
-        <List />
+    return <div> 
+        <Users />
     </div>
 }
 
