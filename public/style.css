@@ -91,3 +91,9 @@
   -ms-transform: translateY(-3px);
   -o-transform: translateY(-3px);
 }
+
+.icon{
+  font-size: 3rem;
+  margin: 2rem;
+  color: orange;
+}

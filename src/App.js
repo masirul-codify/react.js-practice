@@ -6,14 +6,28 @@ import List from './components/unique-list/List';
 import Users from './components/unique-list/User';
 import Data from './Data.json'; 
 import Card2 from './components/Card2';
-
+import BsCard from './components/reactBootstrap/BsCard';
+import { FaFacebook,FaYoutube  } from "react-icons/fa6";
+import ReactBootstrap from './components/reactBootstrap/ReactBootstrap';
 
 
 
 function App(){
     return <div> 
-        <Users />
+        {/* <Users />
         <Card2 name="This is card2 name class component example"/>
+        <div>
+            <span><FaYoutube className='icon'/></span>
+            <span><FaFacebook className='icon'/></span>
+            
+        </div>
+        <ReactBootstrap /> */}
+        <div className='d-flex align-items-center'> 
+           <BsCard />
+           <BsCard />
+           <BsCard />
+           <BsCard />
+        </div> 
     </div>
 }
 
