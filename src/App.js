@@ -10,7 +10,7 @@ import BsCard from './components/reactBootstrap/BsCard';
 import Navbar from './components/reactBootstrap/Navbar';
 import States from './components/State';
 import ConditionalRenderings from './components/conditionalRendering/Render';
-
+import EventHandelerClass from './components/eventHandeler/Index';
 import { FaFacebook,FaYoutube  } from "react-icons/fa6";
 import ReactBootstrap from './components/reactBootstrap/ReactBootstrap';
 
@@ -35,6 +35,7 @@ function App(){
         </div> 
         <States />
         <ConditionalRenderings /> 
+        <EventHandelerClass />
     </div>
 }
 
