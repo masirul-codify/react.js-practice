@@ -9,6 +9,8 @@ import Card2 from './components/Card2';
 import BsCard from './components/reactBootstrap/BsCard';
 import Navbar from './components/reactBootstrap/Navbar';
 import States from './components/State';
+import ConditionalRenderings from './components/conditionalRendering/Render';
+
 import { FaFacebook,FaYoutube  } from "react-icons/fa6";
 import ReactBootstrap from './components/reactBootstrap/ReactBootstrap';
 
@@ -32,6 +34,7 @@ function App(){
            <BsCard />
         </div> 
         <States />
+        <ConditionalRenderings /> 
     </div>
 }
 
