@@ -29,8 +29,8 @@ export default class State extends Component {
         <div>
             <h1 className='ms-1'> Count: {count} </h1>
             <div className='mt-4'>
-                <button className='me-5' onClick={this.handleIncrement}>+</button>
-                <button onClick={this.handleDecrement}>-</button>
+                <button className='me-5' onClick={this.handleIncrement} disabled = {count === 5? true : false}>+</button>
+                <button onClick={this.handleDecrement} disabled={count === 0? true:false}>-</button>
             </div>
         </div>
       </div>
