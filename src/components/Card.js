@@ -16,8 +16,6 @@ function Card(props) {
       <a href='www.facebook.com' className='theme-btn'>{themeBtn}</a>
     </div>
   </div>
-
-
 }
 
 export default Card;
