@@ -8,7 +8,7 @@ constructor(props) {
   this.state = {
      changedValue : ''
   }
-//   this.handleOnChange = this.handleOnChange.bind(this)
+//   this.handleOnChange = this.handleOnChange.bind(this);
 }
 
 

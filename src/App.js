@@ -11,6 +11,8 @@ import Navbar from './components/reactBootstrap/Navbar';
 import States from './components/State';
 import ConditionalRenderings from './components/conditionalRendering/Render';
 import EventHandelerClass from './components/eventHandeler/Index';
+import Hook from './components/hooksUsestate/Hooks';
+import HooksFunctionalcom from './components/hooksUsestate/HooksFunctionalcom';
 import { FaFacebook,FaYoutube  } from "react-icons/fa6";
 import ReactBootstrap from './components/reactBootstrap/ReactBootstrap';
 
@@ -36,6 +38,8 @@ function App(){
         <States />
         <ConditionalRenderings /> 
         <EventHandelerClass />
+        <Hook />
+        <HooksFunctionalcom />
     </div>
 }
 
