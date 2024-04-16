@@ -14,6 +14,7 @@ import EventHandelerClass from './components/eventHandeler/Index';
 import Hook from './components/hooksUsestate/Hooks';
 import HooksFunctionalcom from './components/hooksUsestate/HooksFunctionalcom';
 import StopPropagations from './components/stopPropagation/StopPropagation';
+import Form from './components/form/Forms';
 import { FaFacebook,FaYoutube  } from "react-icons/fa6";
 import ReactBootstrap from './components/reactBootstrap/ReactBootstrap';
 
@@ -42,6 +43,7 @@ function App(){
         <Hook />
         <HooksFunctionalcom />
         <StopPropagations />
+        <Form />
     </div>
 }
 
