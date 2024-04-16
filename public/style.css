@@ -97,3 +97,12 @@
   margin: 2rem;
   color: orange;
 }
+
+.parent{
+  background: #ad8b8b;
+  padding: 40px;
+  margin: 10px;
+}
+.child{
+  background: #e22828;
+}

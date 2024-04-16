@@ -13,6 +13,7 @@ import ConditionalRenderings from './components/conditionalRendering/Render';
 import EventHandelerClass from './components/eventHandeler/Index';
 import Hook from './components/hooksUsestate/Hooks';
 import HooksFunctionalcom from './components/hooksUsestate/HooksFunctionalcom';
+import StopPropagations from './components/stopPropagation/StopPropagation';
 import { FaFacebook,FaYoutube  } from "react-icons/fa6";
 import ReactBootstrap from './components/reactBootstrap/ReactBootstrap';
 
@@ -40,6 +41,7 @@ function App(){
         <EventHandelerClass />
         <Hook />
         <HooksFunctionalcom />
+        <StopPropagations />
     </div>
 }
 
